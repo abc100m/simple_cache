@@ -100,6 +100,7 @@ int main(int argc, char *argv[])
 
     assert(aaa.has_key("good"));
     assert(aaa.has_key("wisdom"));
+    
     assert(!aaa.has_key("not_have_yet"));
 
     //test case 2
