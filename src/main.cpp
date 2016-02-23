@@ -98,9 +98,8 @@ int main(int argc, char *argv[])
     }
     cout << endl;
 
-    assert(aaa.has_key("CCS_Qiandabao_FROM_UBAS"));
-    assert(aaa.has_key("CCS_Niiwoo"));
-    assert(aaa.has_key("AFP_Transfer"));
+    assert(aaa.has_key("good"));
+    assert(aaa.has_key("wisdom"));
     assert(!aaa.has_key("not_have_yet"));
 
     //test case 2
